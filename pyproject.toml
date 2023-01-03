@@ -1,3 +1,14 @@
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "persian-localizations"
+version = "0.0.1"
+authors = [{ name="Mohammad Ali Haghshenas", email="haghshenas_m_a@yahoo.com" }]
+description = "A Python package to facilitate Persian language localizations"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = ["Programming Language :: Python :: 3","License :: OSI Approved :: Apache Software License","Operating System :: OS Independent"]
+[project.urls]
+"Homepage" = "https://github.com/H-MAli/persian-localizations"
