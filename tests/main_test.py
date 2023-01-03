@@ -1,5 +1,5 @@
 import unittest
-from src import *
+from src.persian_localizations import *
 
 class TestPersianNumerals(unittest.TestCase):
 	def runTest(self):

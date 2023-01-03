@@ -1,14 +1,14 @@
-# persian-localizations
+# persian_localizations
 A Python package to facilitate Persian language localizations.
 
 ## Install
 
 ```
-pip install persian-localizations
+pip install persian_localizations
 ```
 
 ## Usage
-Here are a list of functions available to you through `persian-localizations`:
+Here are a list of functions available to you through `persian_localizations`:
 
 - `latin_to_persian(latin, decimal_point=False, question_mark=False)`: Lets you convert some latin characters to their Persian counterparts:
 ```python
