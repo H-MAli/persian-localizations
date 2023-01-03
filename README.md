@@ -11,7 +11,7 @@ pip install persian-localizations
 Here are a list of functions available to you through `persian-localizations`:
 
 - `latin_to_persian(latin, decimal_point=False, question_mark=False)`: Lets you convert some latin characters to their Persian counterparts:
-```
+```python
 # required imports
 from persian_localizers import latin_to_persian
 
@@ -25,7 +25,7 @@ latin_to_persian('69.420، همین‌جوری!', decimal_point=True) # Returns 
 latin_to_persian('چی شد?', question_mark=True) # Returns 'چی شد؟'
 ```
 - `persian_numerals(num)`: Lets you convert an `int` value to its Persian counterpart:
-```
+```python
 # required imports
 from persian_localizers import persian_numerals
 
@@ -33,7 +33,7 @@ from persian_localizers import persian_numerals
 persian_numerals(123) # Returns '۱۲۳'
 ```
 - `cleanup_arabic_characters(problematic)`: Lets you clean-up a Persian `str` value containing some unintended Arabic characters:
-```
+```python
 # required imports
 from persian_localizers import cleanup_arabic_characters
 
@@ -41,21 +41,21 @@ from persian_localizers import cleanup_arabic_characters
 cleanup_arabic_characters('مي‌روم') # Returns 'می‌روم'
 ```
 - `persian_numeral_string(num)`: Converts an `int` value to its written-out form in Persian:
-```
+```python
 # required imports
 from persian_localizers import persian_numeral_string
 
 persian_numeral_string(1234) # Returns 'هزار و دویست و سی و چهار'
 ```
 - `persian_ordinal_string(num)`: Converts an `int` value to its written-out form in Persian in ordinal form (اول, دوم, etc.):
-```
+```python
 # required imports
 from persian_localizers import persian_ordinal_string
 
 persian_ordinal_string(25) # Returns 'بیست و پنجم'
 ```
 - `persian_counting_ordinal_string(num)`: Converts an `int` value to its written-out form in Persian in counting ordinal form (اولین, دومین, etc.):
-```
+```python
 # required imports
 from persian_localizers import persian_counting_ordinal_string
 
