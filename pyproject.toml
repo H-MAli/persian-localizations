@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "persian-localizations"
-version = "0.0.1"
+version = "0.0.2"
 authors = [{ name="Mohammad Ali Haghshenas", email="haghshenas_m_a@yahoo.com" }]
 description = "A Python package to facilitate Persian language localizations"
 readme = "README.md"
